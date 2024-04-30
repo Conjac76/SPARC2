@@ -1,0 +1,59 @@
+#container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+    /* Set the background color to black */
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Set the Roboto font for the entire document */
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    /* Set the background color to black */
+    background-color: black;
+    /* Set the font color to white */
+    color: white;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.one {
+    background-color: rgb(180, 30, 80);
+}
+.two {
+    background-color: rgb(110, 70, 250);
+}
+.three {
+    background-color: rgb(30, 180, 90);
+}
+.four {
+    background-color: rgb(190, 90, 120);
+}
+
+video {
+    height: 80%; /* Adjust as needed */
+}
+
+.question-container {
+    margin-top: 20px;
+    /* Set the font color to white */
+    color: white;
+}
+
+.question-container label {
+    display: inline-block;
+    margin-right: 10px;
+}
